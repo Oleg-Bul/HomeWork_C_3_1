@@ -29,6 +29,8 @@ double NumberOfEvenNumbers(double[] arr)
         if(arr[i] < min) min = arr[i];
         if(arr[i] > max) max = arr[i];
     }
+    //System.Console.WriteLine(min);
+    //System.Console.WriteLine(max);
     result = max-min;
     return result;
 }
